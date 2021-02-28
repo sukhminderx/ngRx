@@ -31,14 +31,6 @@ export class AppComponent {
   ) {}
 
   ngOnInit() {
-    this.booksService
-      .getBooks()
-      .subscribe((Book) => this.store.dispatch(retrievedBookList({ Book })));
+    this.store.dispatch({ type: '[Dummy Page] Load Books' });    
   }
 }
-
-
-/*
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://github.com/ngrx/platform
-*/
