@@ -1,1 +1,1 @@
-![alt text](https://github.com/sukhminderx/ngRx/blob/selectors/image.jpeg?raw=true)
+![alt text](https://github.com/sukhminderx/ngRx/blob/selectors/src/image.jpeg?raw=true)
