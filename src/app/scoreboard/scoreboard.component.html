@@ -1,0 +1,15 @@
+<section>
+  <article>
+    <h2>Home Score is</h2>
+    {{ home$ | async }}
+  </article>
+  <article>
+    <h2>Away Score is</h2>
+    {{ away$ | async }}
+  </article>
+  <p>
+    <button (click)="incHome()">Inc home score</button>
+    <button (click)="incAway()">Inc away score</button>
+    <button (click)="incBoth()">Inc both score</button>
+  </p>
+</section>
